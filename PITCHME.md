@@ -3,7 +3,8 @@
 ---
 
 ## 必要なもの
-・[VMware Workstation 14 Player](https://my.vmware.com/jp/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/14_0 )(※要アカウント登録)
+・[VMware Workstation 14 Player](https://my.vmware.com/jp/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/14_0 )
+(※要アカウント登録)
 
 ・[VMware vSphere6.0u2](https://my.vmware.com/jp/group/vmware/info?slug=datacenter_cloud_infrastructure/vmware_vsphere/6_5) (※要アカウント登録)
 
